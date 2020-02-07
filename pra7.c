@@ -15,6 +15,7 @@ obj->pName = malloc(100);
 obj->pAddress = malloc(100);
 strcpy(obj->pName,"Your Name");
 strcpy(obj->pAddress, "Your Address");
+cout<<"HEllo";
 free(obj);
 free(obj);
 printf("%s ", obj->pName);
